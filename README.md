@@ -11,19 +11,21 @@ project
 │   │   ...
 ```
 
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/Clement-Muth/react-native-template)
-
 ## How to use
+
+Install android [studio](https://developer.android.com/studio)
+
+In your zshrc or bashrc
+
+```
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+```
 
 With yarn
 
 ```bash
 yarn
-yarn dev
+yarn android
 ```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
