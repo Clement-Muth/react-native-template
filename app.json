@@ -1,0 +1,9 @@
+{
+  "name": "receiptManager",
+  "displayName": "receiptManager",
+  "androidNavigationBar": {
+    "visible": "BOOLEAN",
+    "barStyle": "STRING",
+    "backgroundColor": "STRING"
+  }
+}
